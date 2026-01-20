@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Case Studies </title>
+    <meta name="description"
+        content="A curated selection of production mobile applications built using Flutter and React Native.">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: '#0d0d0d',
+                        foreground: '#f5f5f5',
+                        card: '#161616',
+                        'card-foreground': '#f5f5f5',
+                        muted: '#262626',
+                        'muted-foreground': '#a3a3a3',
+                        primary: '#3b82f6', // blue-500
+                        border: '#262626',
+                    }
+                }
+            }
+        }
+    </script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;family=Inter:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-background text-foreground font-sans antialiased">
+
+    <div
+        class="fixed inset-0 z-[-1] bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,0.05),transparent_50%),radial-gradient(circle_at_70%_60%,rgba(59,130,246,0.1),transparent_50%)] pointer-events-none">
+    </div>
+
+
+
+    <main class="py-20">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="text-center mb-16">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">All Case Studies</h1>
+                <p class="text-muted-foreground text-lg max-w-2xl mx-auto">A curated gallery of mobile applications
+                    built with precision and passion.</p>
+            </div>
+
+            <!-- Uniform Grid Container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+
+                <!-- Razzle -->
+                <a href="case-studies/razzle.html"
+                    class="group relative rounded-3xl overflow-hidden border border-border/50 bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 flex flex-col">
+                    <div class="relative aspect-video overflow-hidden shrink-0">
+                        <img src="assets/razzle_mockup_v2.jpg" alt="Razzle Mockup"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <div class="mb-auto">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Razzle</h3>
+                            <p class="text-muted-foreground text-sm line-clamp-3">Modern dating app prioritizing
+                                authenticity and privacy.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-4 border-t border-border/10 flex justify-between items-center">
+                            <span class="text-xs font-medium text-muted-foreground">React Native</span>
+                            <div
+                                class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                    <path d="m12 5 7 7-7 7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- IREWA -->
+                <a href="case-studies/irewa.html"
+                    class="group relative rounded-3xl overflow-hidden border border-border/50 bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 flex flex-col">
+                    <div class="relative aspect-video overflow-hidden shrink-0">
+                        <img src="assets/irewa_mockup_v3.jpg" alt="IREWA Mockup"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <div class="mb-auto">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">IREWA</h3>
+                            <p class="text-muted-foreground text-sm line-clamp-3">Full ecosystem energy management
+                                platform with real-time insights.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-4 border-t border-border/10 flex justify-between items-center">
+                            <span class="text-xs font-medium text-muted-foreground">Flutter</span>
+                            <div
+                                class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                    <path d="m12 5 7 7-7 7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Ask Your HVAC Pro -->
+                <a href="case-studies/ask-your-hvac-pro.html"
+                    class="group relative rounded-3xl overflow-hidden border border-border/50 bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 flex flex-col">
+                    <div class="relative aspect-video overflow-hidden shrink-0">
+                        <img src="assets/hvac_mockup_v2.jpg" alt="Ask Your HVAC Pro Mockup"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <div class="mb-auto">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">HVAC Pro</h3>
+                            <p class="text-muted-foreground text-sm line-clamp-3">AI powered HVAC assistance platform.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-4 border-t border-border/10 flex justify-between items-center">
+                            <span class="text-xs font-medium text-muted-foreground">Flutter</span>
+                            <div
+                                class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                    <path d="m12 5 7 7-7 7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Next Step -->
+                <a href="case-studies/next-step.html"
+                    class="group relative rounded-3xl overflow-hidden border border-border/50 bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 flex flex-col">
+                    <div class="relative aspect-video overflow-hidden shrink-0">
+                        <img src="assets/next_step_mockup_v2.jpg" alt="Next Step Mockup"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <div class="mb-auto">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Next Step</h3>
+                            <p class="text-muted-foreground text-sm line-clamp-3">Support focused mobile app for youth.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-4 border-t border-border/10 flex justify-between items-center">
+                            <span class="text-xs font-medium text-muted-foreground">Figma</span>
+                            <div
+                                class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                    <path d="m12 5 7 7-7 7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- SEIYON+ -->
+                <a href="case-studies/seiyon-plus.html"
+                    class="group relative rounded-3xl overflow-hidden border border-border/50 bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 flex flex-col">
+                    <div class="relative aspect-video overflow-hidden shrink-0">
+                        <img src="assets/seiyon_plus_mockup_v2.jpg" alt="SEIYON+ Mockup"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <div class="mb-auto">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">SEIYON+</h3>
+                            <p class="text-muted-foreground text-sm line-clamp-3">Flexible digital car subscription.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-4 border-t border-border/10 flex justify-between items-center">
+                            <span class="text-xs font-medium text-muted-foreground">React Native</span>
+                            <div
+                                class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                    <path d="m12 5 7 7-7 7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Toy'sells -->
+                <a href="case-studies/toysells.html"
+                    class="group relative rounded-3xl overflow-hidden border border-border/50 bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 flex flex-col">
+                    <div class="relative aspect-video overflow-hidden shrink-0">
+                        <img src="assets/toysells_mockup_v2.jpg" alt="ToySells Mockup"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <div class="mb-auto">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Toy'sells</h3>
+                            <p class="text-muted-foreground text-sm line-clamp-3">Brand focused e-commerce used for
+                                toys.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-4 border-t border-border/10 flex justify-between items-center">
+                            <span class="text-xs font-medium text-muted-foreground">Figma</span>
+                            <div
+                                class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                    <path d="m12 5 7 7-7 7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Quitting Buddies -->
+                <a href="case-studies/quitting-buddies.html"
+                    class="group relative rounded-3xl overflow-hidden border border-border/50 bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 flex flex-col">
+                    <div class="relative aspect-video overflow-hidden shrink-0">
+                        <img src="assets/quitting_buddies_mockup_v2.jpg" alt="Quitting Buddies Mockup"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <div class="mb-auto">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Quitting
+                                Buddies</h3>
+                            <p class="text-muted-foreground text-sm line-clamp-3">Accountability-driven habit change
+                                companion.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-4 border-t border-border/10 flex justify-between items-center">
+                            <span class="text-xs font-medium text-muted-foreground">React Native</span>
+                            <div
+                                class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                    <path d="m12 5 7 7-7 7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Reclaim -->
+                <a href="case-studies/reclaim.html"
+                    class="group relative rounded-3xl overflow-hidden border border-border/50 bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 flex flex-col">
+                    <div class="relative aspect-video overflow-hidden shrink-0">
+                        <img src="assets/reclaim_mockup_v2.jpg" alt="Reclaim Mockup"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <div class="mb-auto">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Reclaim</h3>
+                            <p class="text-muted-foreground text-sm line-clamp-3">Wellness and habit rebuilding app.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-4 border-t border-border/10 flex justify-between items-center">
+                            <span class="text-xs font-medium text-muted-foreground">React Native</span>
+                            <div
+                                class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                    <path d="m12 5 7 7-7 7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Heal Like Me -->
+                <a href="case-studies/heal-like-me.html"
+                    class="group relative rounded-3xl overflow-hidden border border-border/50 bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 flex flex-col">
+                    <div class="relative aspect-video overflow-hidden shrink-0">
+                        <img src="assets/heal_like_me_mockup_v2.jpg" alt="Heal Like Me Mockup"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <div class="mb-auto">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Heal Like Me
+                            </h3>
+                            <p class="text-muted-foreground text-sm line-clamp-3">Doctor portfolio and appointment
+                                booking.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-4 border-t border-border/10 flex justify-between items-center">
+                            <span class="text-xs font-medium text-muted-foreground">UI/UX</span>
+                            <div
+                                class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                    <path d="m12 5 7 7-7 7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Avialinker -->
+                <a href="case-studies/avialinker.html"
+                    class="group relative rounded-3xl overflow-hidden border border-border/50 bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 flex flex-col">
+                    <div class="relative aspect-video overflow-hidden shrink-0">
+                        <img src="assets/avialinker_mockup_v2.jpg" alt="Avialinker Mockup"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <div class="mb-auto">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Avialinker
+                            </h3>
+                            <p class="text-muted-foreground text-sm line-clamp-3">Aviation utility app for simplified
+                                workflows.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-4 border-t border-border/10 flex justify-between items-center">
+                            <span class="text-xs font-medium text-muted-foreground">Flutter</span>
+                            <div
+                                class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                    <path d="m12 5 7 7-7 7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Starting Points -->
+                <a href="case-studies/starting-points.html"
+                    class="group relative rounded-3xl overflow-hidden border border-border/50 bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 flex flex-col">
+                    <div class="relative aspect-video overflow-hidden shrink-0">
+                        <img src="assets/starting_points_mockup_v2.jpg" alt="Starting Points Mockup"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <div class="mb-auto">
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Starting
+                                Points</h3>
+                            <p class="text-muted-foreground text-sm line-clamp-3">Collaborative innovation platform.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-4 border-t border-border/10 flex justify-between items-center">
+                            <span class="text-xs font-medium text-muted-foreground">Flutter</span>
+                            <div
+                                class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                    <path d="m12 5 7 7-7 7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+    </main>
+
+    <footer class="border-t border-border/50 bg-background py-8">
+        <div class="container text-center">
+            <p class="font-medium text-foreground mb-1">Senior Mobile Application Engineer</p>
+            <p class="text-sm text-muted-foreground">&copy; 2025. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+
+<!-- Mirrored from zohaib-h.onrender.com/case-studies by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Jan 2026 00:21:19 GMT -->
+</html>

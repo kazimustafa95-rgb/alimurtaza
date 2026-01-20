@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Your HVAC Pro - Case Study </title>
+    <meta name="description"
+        content="Case study of Ask Your HVAC Pro, a Flutter-based mobile application for on-demand HVAC guidance.">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        background: '#0d0d0d',
+                        foreground: '#f5f5f5',
+                        card: '#161616',
+                        'card-foreground': '#f5f5f5',
+                        muted: '#262626',
+                        'muted-foreground': '#a3a3a3',
+                        primary: '#3b82f6', // blue-500
+                        border: '#262626',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="bg-background text-foreground font-sans antialiased">
+ 
+
+    <main class="py-24">
+        <!-- Hero Mockup -->
+        <section class="container mb-16 px-4">
+            <div
+                class="relative w-full max-w-4xl mx-auto aspect-video rounded-3xl overflow-hidden shadow-2xl bg-card border border-border/50">
+                <img src="../assets/hvac_mockup_v2.jpg" alt="Ask Your HVAC Pro App Interface"
+                    class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent"></div>
+            </div>
+        </section>
+
+        <!-- Case Study Content -->
+        <section class="container max-w-4xl px-4">
+            <div class="mb-12">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Ask Your HVAC Pro</h1>
+                <p class="text-xl text-muted-foreground leading-relaxed">
+                    Ask Your HVAC Pro bridges the gap between homeowners and certified HVAC
+                    professionals. The app delivers real-time, AI-powered solutions for heating and cooling
+                    problems, helping users troubleshoot quickly and make informed decisions. Built to
+                    simplify maintenance and support, it ensures expert advice is always just a tap away.
+                </p>
+
+                <div class="flex flex-wrap gap-4 mt-8">
+                    <!-- App Store -->
+                    <a href="https://apps.apple.com/us/app/ask-your-hvac-pro/id6747091670" target="_blank"
+                        class="inline-flex items-center gap-3 bg-black border border-white/20 text-white px-4 py-2 rounded-lg hover:bg-zinc-900 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 384 512"
+                            fill="currentColor">
+                            <path
+                                d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 52.3-11.4 69.5-34.3z" />
+                        </svg>
+                        <div class="flex flex-col items-start leading-none">
+                            <span class="text-[10px] uppercase font-medium mb-1 opacity-80">Download on the</span>
+                            <span class="text-sm font-bold">App Store</span>
+                        </div>
+                    </a>
+
+                    <!-- Play Store -->
+                    <a href="https://play.google.com/store/apps/details?id=com.hbox.hvacanswers&amp;pcampaignid=web_share"
+                        target="_blank"
+                        class="inline-flex items-center gap-3 bg-black border border-white/20 text-white px-4 py-2 rounded-lg hover:bg-zinc-900 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"
+                            fill="none">
+                            <path
+                                d="M45.1 33.2A11.02 11.02 0 0 0 42 41.5v396.9c0 4.2 1.9 8.1 5.1 10.6l243.7-221.7L45.1 33.2z"
+                                fill="#4285F4" />
+                            <path d="M331.2 288.7l-40.4-31.4-40.4 31.4 40.4 31.4 40.4-31.4z" fill="#FBBC04" />
+                            <path d="M439 249.3l-67.4-38.5-80.8 63.3 80.8 63.3 67.4-38.5c10.3-5.9 10.3-23.7 0-29.6z"
+                                fill="#FBBC04" />
+                            <path d="M325.5 257.3L290.8 227.3 45.1 33.2c5.4-3.8 12.3-3.2 17.5 0l262.9 224.1z"
+                                fill="#34A853" />
+                            <path d="M325.5 320L290.8 350 45.1 544.1c5.4 3.8 12.3 3.2 17.5 0l262.9-224.1z"
+                                fill="#EA4335" />
+                        </svg>
+                        <div class="flex flex-col items-start leading-none">
+                            <span class="text-[10px] uppercase font-medium mb-1 opacity-80">Get it on</span>
+                            <span class="text-sm font-bold">Google Play</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-16 border-y border-border/50 py-12">
+                <div class="space-y-3">
+                    <h3 class="text-lg font-bold text-primary flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-alert-circle">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="12" x2="12" y1="8" y2="12" />
+                            <line x1="12" x2="12.01" y1="16" y2="16" />
+                        </svg>
+                        Problem
+                    </h3>
+                    <p class="text-muted-foreground text-sm leading-relaxed">Homeowners often rely on fragmented or
+                        unreliable sources when seeking HVAC advice.</p>
+                </div>
+                <div class="space-y-3">
+                    <h3 class="text-lg font-bold text-primary flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-lightbulb">
+                            <path
+                                d="M15 14c.2-1 .7-1.7 1.5-2.5 1-1 1.5-2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
+                            <path d="M9 18h6" />
+                            <path d="M10 22h4" />
+                        </svg>
+                        Solution
+                    </h3>
+                    <p class="text-muted-foreground text-sm leading-relaxed">Built an AI powered HVAC guidance platform
+                        that delivers real time diagnostics and expert level recommendations on demand.</p>
+                </div>
+                <div class="space-y-3">
+                    <h3 class="text-lg font-bold text-primary flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trending-up">
+                            <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
+                            <polyline points="16 7 22 7 22 13" />
+                        </svg>
+                        Outcome
+                    </h3>
+                    <ul class="text-muted-foreground text-sm space-y-1">
+                        <li>• Improved early user engagement</li>
+                        <li>• Positive usability feedback</li>
+                        <li>• Stable production release</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Key Features</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-4">
+                            <div
+                                class="mt-1 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="text-primary lucide lucide-check">
+                                    <path d="M20 6 9 17l-5-5" />
+                                </svg>
+                            </div>
+                            <span class="text-foreground">Expert-led Q and A flow</span>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div
+                                class="mt-1 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="text-primary lucide lucide-check">
+                                    <path d="M20 6 9 17l-5-5" />
+                                </svg>
+                            </div>
+                            <span class="text-foreground">Rule based and AI assisted diagnostics engine</span>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div
+                                class="mt-1 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="text-primary lucide lucide-check">
+                                    <path d="M20 6 9 17l-5-5" />
+                                </svg>
+                            </div>
+                            <span class="text-foreground">Secure API integrations with controlled data handling</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Tech Stack</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span
+                            class="px-4 py-2 rounded-lg bg-card border border-border text-sm font-medium text-muted-foreground hover:text-primary hover:border-primary/50 transition-colors">Flutter</span>
+                        <span
+                            class="px-4 py-2 rounded-lg bg-card border border-border text-sm font-medium text-muted-foreground hover:text-primary hover:border-primary/50 transition-colors">Firebase</span>
+                        <span
+                            class="px-4 py-2 rounded-lg bg-card border border-border text-sm font-medium text-muted-foreground hover:text-primary hover:border-primary/50 transition-colors">REST
+                            APIs</span>
+                        <span
+                            class="px-4 py-2 rounded-lg bg-card border border-border text-sm font-medium text-muted-foreground hover:text-primary hover:border-primary/50 transition-colors">OpenAI
+                            API</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-border/50 bg-background py-8 mt-12">
+        <div class="container text-center">
+            <p class="font-medium text-foreground mb-1">Senior Mobile Application Engineer</p>
+            <p class="text-sm text-muted-foreground">&copy; 2025. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+
+<!-- Mirrored from zohaib-h.onrender.com/case-studies/ask-your-hvac-pro by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Jan 2026 00:21:20 GMT -->
+</html>
